@@ -1,9 +1,14 @@
+import MetaHead from "../components/MetaHead";
 import Hero from "../components/Hero";
 import ProjectPost from "../components/ProjectPost";
 
 export default function ProjectPage() {
     return (
     <>
+        <MetaHead 
+            page="Projects"
+            description="The different things that I have built and building currently"
+        />
         <Hero 
             description="Here are my projects"
         />
