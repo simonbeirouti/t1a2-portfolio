@@ -11,19 +11,22 @@ export default function Header() {
             <nav>
                 <ul id="nav-links">
                     <li>
-                      <Link href="about"><a><button className="btn">ABOUT</button></a></Link>
+                      <Link href="/"><a><button className="btn">🏠</button></a></Link>
                     </li>
                     <li>
-                      <Link href="projects"><a><button className="btn">PROJECT</button></a></Link>
+                      <Link href="about"><a><button className="btn">📖</button></a></Link>
                     </li>
                     <li>
-                      <Link href="blog"><a><button className="btn">BLOG</button></a></Link>
+                      <Link href="projects"><a><button className="btn">🛠</button></a></Link>
+                    </li>
+                    <li>
+                      <Link href="blog"><a><button className="btn">✍🏼</button></a></Link>
                     </li>
                 </ul>
             </nav>
         </div>
         <div className="i-hate-css">
-            <a><button className="btn cta">CONTACT</button></a>
+          <Link href="contact"><a><button className="btn cta">📲</button></a></Link>
         </div>
     </header>
   )
