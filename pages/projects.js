@@ -12,11 +12,12 @@ export default function ProjectPage() {
         <Hero 
             description="Here are my projects"
         />
-        <main>
+        <div className="project-parent">
             <div className="project">
                 <ProjectPost 
                     name="Portfolio creation"
                     description="Building a website from the ground up using HTML and CSS."
+                    technologies="NextJS, HTML, CSS, React"
                     image="/assets/code.jpg"
                 />
             </div>
@@ -24,6 +25,7 @@ export default function ProjectPage() {
                 <ProjectPost 
                     name="Application development"
                     description="Creating a working prototype of ideas that operate on phones."
+                    technologies="Dart, Flutter, Firebase"
                     image="/assets/ux.jpg"
                 />
             </div>
@@ -31,10 +33,11 @@ export default function ProjectPage() {
                 <ProjectPost 
                     name="Become h4ck3R"
                     description="Write python scipts to order pizza and coffee from local biznesses."
+                    technologies="BASH, Python, Coffee"
                     image="/assets/hacker.jpg"
                 />
             </div>
-        </main>
+        </div>
     </>
     )
 }
