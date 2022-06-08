@@ -1,7 +1,12 @@
+import Hero from "../components/Hero";
 import ProjectPost from "../components/ProjectPost";
 
 export default function ProjectPage() {
     return (
+    <>
+        <Hero 
+            description="Here are my projects"
+        />
         <main>
             <div className="project">
                 <ProjectPost 
@@ -25,5 +30,6 @@ export default function ProjectPage() {
                 />
             </div>
         </main>
+    </>
     )
 }
