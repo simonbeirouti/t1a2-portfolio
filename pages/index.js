@@ -32,7 +32,7 @@ export default function Home() {
         description="Hi! I am Simon"
       />
       <div className='avatar-space'>
-        <Image className='avatar' width={200} height={200} src='/assets/avatar.png' />
+        <Image className='avatar' width={200} height={200} src='/assets/avatar.png' alt='Image of Simon'/>
       </div>
       <div className='holder'>
         <div>
