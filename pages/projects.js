@@ -10,7 +10,7 @@ export default function ProjectPage() {
             description="The different things that I have built and building currently"
         />
         <Hero 
-            description="Here are my projects"
+            description="Projects"
         />
         <div className="project-parent">
             <div className="project">
