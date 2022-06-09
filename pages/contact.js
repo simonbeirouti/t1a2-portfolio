@@ -9,7 +9,7 @@ export default function ContactPage() {
                 description="How to contact Simon to talk about anything"
             />
             <Hero 
-                description="Contact me plz"
+                description="Contact me"
             />
             <form action="#" method="POST">
                 <input className="form-fields" placeholder="First name" type="text" id="first-name" name="first-name" />
