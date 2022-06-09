@@ -10,7 +10,9 @@ const navItems = [
 export default function Header() {
   return (
     <header>
-        <Link href="/"><a><button className="btn home">🏠</button></a></Link>
+        <div>
+          <Link href="/"><a><button className="btn home">🏠</button></a></Link>
+        </div>
         <nav>
             <ul id="nav-links">
                 {navItems.map((item) => {
@@ -26,7 +28,9 @@ export default function Header() {
                 })}
             </ul>
         </nav>
-        <Link href="/contact"><a><button className="btn cta">📲</button></a></Link>
+        <div>
+          <Link href="/contact"><a><button className="btn cta">📲</button></a></Link>
+        </div>
     </header>
   )
 }
