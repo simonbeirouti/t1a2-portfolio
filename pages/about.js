@@ -87,6 +87,9 @@ export default function AboutPage() {
                         </ul>
                     </div>
                 </div>
+                <div className='cv' id="cv">
+                    <a href="/files/cv.pdf"><button className='cta'>Download CV</button></a>
+                </div>
             </section>
         </>
     );
