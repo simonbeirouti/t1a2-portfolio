@@ -29,20 +29,20 @@ export default function Home() {
         description="The home page to find some basic information about Simon"
       />
       <Hero 
-        description="Home"
+        description="Hi! I am Simon"
       />
-      <Image className='avatar' width={200} height={200} src='/assets/avatar.png' />
+      <div className='avatar-space'>
+        <Image className='avatar' width={200} height={200} src='/assets/avatar.png' />
+      </div>
       <div className='holder'>
         <div>
           <h1 className='description'>HOBBIES</h1>
           <ul className='liked-ulist'>
             {hobbies.map((hobby) => {
               return (
-                <li >
                   <Link href={hobby.link}>
-                    <a>{hobby.hobbieName}</a>
+                    <li>{hobby.hobbieName}</li> 
                   </Link>
-                </li> 
               )
             })}
           </ul>
@@ -52,11 +52,9 @@ export default function Home() {
           <ul className='liked-ulist'>
             {technologies.map((thing) => {
               return (
-                <li >
-                  <Link href={thing.link}>
-                    <a>{thing.techName}</a>
-                  </Link>
-                </li> 
+                <Link href={thing.link}>
+                  <li>{thing.techName}</li> 
+                </Link>
               )
             })}
           </ul>
@@ -66,11 +64,9 @@ export default function Home() {
           <ul className='liked-ulist'>
             {foods.map((food) => {
               return (
-                <li >
-                  <Link href={food.link}>
-                    <a>{food.foodName}</a>
-                  </Link>
-                </li>
+                <Link href={food.link}>
+                  <li>{food.foodName}</li>
+                </Link>
               )
             })}
           </ul>
