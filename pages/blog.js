@@ -6,20 +6,32 @@ const blogPosts = [
     {
         no: 1,
         name: "Portfolio project",
-        excerpt: "Est succulents blue bottle authentic ea swag bushwick man braid",
-        link: "#"
+        date: "11th June 2022",
+        link: "/blog/portfolio-project"
     },
     {
         no: 2,
         name: "Budget app",
-        excerpt: "Est succulents blue bottle authentic ea swag bushwick man braid",
-        link: "#"
+        date: "19th April 2022",
+        link: "/blog/budget-app"
     },
     {
         no: 3,
         name: "News scraper",
-        excerpt: "Est succulents blue bottle authentic ea swag bushwick man braid",
-        link: "#"
+        date: "3rd March 2022",
+        link: "/blog/news-scrapper"
+    },
+    {
+        no: 4,
+        name: "Flutter portfolio",
+        date: "1st Janurary 2022",
+        link: "/blog/flutter-portfolio"
+    },
+    {
+        no: 5,
+        name: "Bootstrap",
+        date: "24th December 2022",
+        link: "/blog/bootstrap"
     }
 ];
 
@@ -39,7 +51,7 @@ export default function BlogPage() {
                         <BlogPost 
                             key={post.no}
                             name={post.name}
-                            excerpt={post.excerpt}
+                            date={post.date}
                             link={post.link}
                         />
                     )
