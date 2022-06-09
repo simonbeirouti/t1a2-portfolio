@@ -4,16 +4,19 @@ import BlogPost from '../components/BlogPost';
 
 const blogPosts = [
     {
+        no: 1,
         name: "Portfolio project",
         excerpt: "Est succulents blue bottle authentic ea swag bushwick man braid",
         link: "#"
     },
     {
+        no: 2,
         name: "Budget app",
         excerpt: "Est succulents blue bottle authentic ea swag bushwick man braid",
         link: "#"
     },
     {
+        no: 3,
         name: "News scraper",
         excerpt: "Est succulents blue bottle authentic ea swag bushwick man braid",
         link: "#"
@@ -34,6 +37,7 @@ export default function BlogPage() {
                 {blogPosts.map((post) => {
                     return (
                         <BlogPost 
+                            key={post.no}
                             name={post.name}
                             excerpt={post.excerpt}
                             link={post.link}
