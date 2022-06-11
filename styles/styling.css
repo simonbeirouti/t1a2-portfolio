@@ -1,4 +1,20 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300;1,400;1,500;1,600&display=swap');
+
+/* Creating different padding surrounding sizes */
+.xs-p {padding: var(--xs);}
+.sm-p {padding: var(--sm);}
+.md-p {padding: var(--md);}
+.lg-p {padding: var(--lg);}
+.xl-p {padding: var(--xl);}
+.xxl-p {padding: var(--xxl);}
+
+/* Creating different margin surrounding sizes */
+.xs-m {margin: var(--xs);}
+.sm-m {margin: var(--sm);}
+.md-m {margin: var(--md);}
+.lg-m {margin: var(--lg);}
+.xl-m {margin: var(--xl);}
+.xxl-m {margin: var(--xxl);}
 
 /* Creating different padding top sizes */
 .xs-pt {padding-top: var(--xs);}
@@ -72,6 +88,14 @@
 .xl-f {font-size: var(--xl);}
 .xxl-f {font-size: var(--xxl);}
 
+/* Font weight if I want to add more text weight */
+.xs-fw {font-weight: var(--xs-fw);}
+.sm-fw {font-weight: var(--sm-fw);}
+.md-fw {font-weight: var(--md-fw);}
+.lg-fw {font-weight: var(--lg-fw);}
+.xl-fw {font-weight: var(--xl-fw);}
+.xxl-fw {font-weight: var(--xxl-fw);}
+
 /* Apply styling to all elements */
 * {
     box-sizing: border-box;
@@ -85,11 +109,6 @@
     text-align: center;
 }
 
-/* Set all h1s to an increased font size */
-h1 {
-    font-size: var(--xl);
-}
-
 /* Create a dashed class for all borders */
 .dashed {    
     border: var(--border);
@@ -99,6 +118,10 @@ h1 {
 .transition {
     transition: all 1s ease 0s;
 }
+
+/* Font align class */
+.left {text-align: left;}
+.right {text-align: right;}
 
 /* General and different button styling */
 button {
