@@ -3,36 +3,11 @@ import Hero from '../components/Hero';
 import BlogPost from '../components/BlogPost';
 
 const blogPosts = [
-    {
-        no: 1,
-        name: "Portfolio project",
-        date: "11th June 2022",
-        link: "/blog/portfolio-project"
-    },
-    {
-        no: 2,
-        name: "Budget app",
-        date: "19th April 2022",
-        link: "/blog/budget-app"
-    },
-    {
-        no: 3,
-        name: "News scraper",
-        date: "3rd March 2022",
-        link: "/blog/news-scrapper"
-    },
-    {
-        no: 4,
-        name: "Flutter portfolio",
-        date: "1st Janurary 2022",
-        link: "/blog/flutter-portfolio"
-    },
-    {
-        no: 5,
-        name: "Bootstrap",
-        date: "24th December 2022",
-        link: "/blog/bootstrap"
-    }
+    {no: 1, name: "Portfolio project", date: "11th June 2022", link: "/blog/portfolio-project"},
+    {no: 2, name: "Budget app", date: "19th April 2022", link: "/blog/budget-app"},
+    {no: 3, name: "News scraper", date: "3rd March 2022", link: "/blog/news-scrapper"},
+    {no: 4, name: "Flutter portfolio", date: "1st Janurary 2022", link: "/blog/flutter-portfolio"},
+    {no: 5, name: "Bootstrap", date: "24th December 2022", link: "/blog/bootstrap"}
 ];
 
 export default function BlogPage() {
@@ -45,7 +20,7 @@ export default function BlogPage() {
             <Hero 
                 description="Blog"
             />
-            <section className='blog-parent'>
+            <section className='blog-parent xxl-mt xxl-mb xxl-ml xxl-mr'>
                 {blogPosts.map((post) => {
                     return (
                         <BlogPost 
