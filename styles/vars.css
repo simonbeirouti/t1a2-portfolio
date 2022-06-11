@@ -17,8 +17,15 @@
     --lg: 20px;
     --xl: 25px;
     --xxl: 50px;
-
+    
     --fs-sm: 16px;
     --fs-md: 18px;
     --fs-lg: 20px;
+    
+    --xs-fw: 100;
+    --sm-fw: 200;
+    --md-fw: 300;
+    --lg-fw: 400;
+    --xl-fw: 500;
+    --xxl-fw: 600;
 }
