@@ -29,7 +29,7 @@ export default function AboutPage() {
                     <div className="sub-box lg-p xl-mt xl-mb dashed">
                         <div className="md-p">                            
                             <h2 className="lg-f sm-mb lg-fw left">Trade View Investments</h2>
-                            <h3 className="md-fw">Customer Support</h3>
+                            <h3 className="md-fw right sm-pr">Customer Support</h3>
                             <p className="right sm-fw" id="date">September 2021 - February 2022</p>
                             <p className="right md-fw">Troubleshooted client algorithms and created educational tutorials in the form of text, video and audio content.</p>
                         </div>
@@ -37,7 +37,7 @@ export default function AboutPage() {
                     <div className="sub-box lg-p xl-mt xl-mb dashed">
                         <div className="md-p">                            
                             <h2 className="lg-f sm-mb lg-fw left">Crypto.com</h2>
-                            <h3 className="md-fw">Australian/New Zealand Community Manager</h3>
+                            <h3 className="md-fw right sm-pr">Australian/New Zealand Community Manager</h3>
                             <p className="right sm-fw" id="date">July 2020 - October 2020</p>
                             <p className="right md-fw">Managed a growing crypto.com community and shared information about products services.</p>
                         </div>
@@ -46,7 +46,7 @@ export default function AboutPage() {
                     <div className="sub-box lg-p xl-mt xl-mb dashed">
                         <div className="md-p">                            
                             <h2 className="lg-f sm-mb lg-fw left">Parsl</h2>
-                            <h3 className="md-fw">Community Manager and Lead Support Specialist</h3>
+                            <h3 className="md-fw right sm-pr">Community Manager and Lead Support Specialist</h3>
                             <p className="right sm-fw" id="date">January 2018 - July 2019</p>
                             <p className="right md-fw">Started the community from 50 members to over a 1k and implemented workflows across the company.</p>
                         </div>
@@ -55,7 +55,7 @@ export default function AboutPage() {
                     <div className="sub-box lg-p xl-mt xl-mb dashed">
                         <div className="md-p">                            
                             <h2 className="lg-f sm-mb lg-fw left">SAMSUNG</h2>
-                            <h3 className="md-fw">Brand Ambassador</h3>
+                            <h3 className="md-fw right sm-pr">Brand Ambassador</h3>
                             <p className="right sm-fw" id="date">October 2017 - October 2018</p>
                             <p className="right md-fw">Did general product walkthroughs for customers switching to Samsung and provided white glove service to those switching phones.</p>
                         </div>
@@ -64,7 +64,7 @@ export default function AboutPage() {
                     <div className="sub-box lg-p xl-mt xl-mb dashed">
                         <div className="md-p">                            
                             <h2 className="lg-f sm-mb lg-fw left">Bunnings Warehouse</h2>
-                            <h3 className="md-fw">Customer Service and Logistics Assistant</h3>
+                            <h3 className="md-fw right sm-pr">Customer Service and Logistics Assistant</h3>
                             <p className="right sm-fw" id="date">August 2012 - September 2015</p>
                             <p className="right md-fw">Interacted with customers and helped with the goods inwards, and outwards at two different stores.</p>
                         </div>
