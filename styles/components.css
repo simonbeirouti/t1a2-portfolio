@@ -22,3 +22,22 @@ footer {
     height: 40px;
 }
   
+/* Blog post component */
+.blog-post {
+    height: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 10%;
+    border-radius: 25px;
+}
+.blog-post, h1, p, a {
+    margin: 10px;
+}
+  
+@media only screen and (max-width: 1220px) {
+    .blog-post {
+      flex-flow: column wrap;
+    }
+}
