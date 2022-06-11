@@ -12,7 +12,7 @@ export default function ProjectPost({name, description, image, technologies, lin
                     <p className="tech-used">{technologies}</p>
                 </div>
                 <a href={link}>
-                    <button>Go to project</button>
+                    <button className="cta">Go to project</button>
                 </a>
             </div>
         </>
