@@ -1,4 +1,8 @@
-import '../styles/globals.css';
+import '../styles/vars.css';
+import '../styles/styling.css';
+import '../styles/pages.css';
+import '../styles/components.css';
+
 import Layout from '../components/Layout';
 
 function MyApp({ Component, pageProps }) {
