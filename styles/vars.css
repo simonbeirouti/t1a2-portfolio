@@ -1,0 +1,24 @@
+:root {
+    --green: #adff2f;
+    --green-hover: #acff2fd0;
+    --red: #ff0000;
+    --red-hover: #ff0000d0;
+    --orange: #ffa500;
+    --orange-hover: #ffa500d0;
+    --black: #000;
+    --black-hover: rgba(0, 0, 0, 0.800);
+    --white: #fff;
+
+    --border: 1px dashed rgba(0, 0, 0, 0.700);
+
+    --xs: 5px;
+    --sm: 10px;
+    --md: 15px;
+    --lg: 20px;
+    --xl: 25px;
+    --xxl: 50px;
+
+    --fs-sm: 16px;
+    --fs-md: 18px;
+    --fs-lg: 20px;
+}

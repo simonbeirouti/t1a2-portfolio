@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+/* Creating different padding top sizes */
+.xs-pt {padding-top: var(--xs);}
+.sm-pt {padding-top: var(--sm);}
+.md-pt {padding-top: var(--md);}
+.lg-pt {padding-top: var(--lg);}
+.xl-pt {padding-top: var(--xl);}
+.xxl-pt {padding-top: var(--xxl);}
+
+/* Creating different padding bottom sizes */
+.xs-pb {padding-bottom: var(--xs);}
+.sm-pb {padding-bottom: var(--sm);}
+.md-pb {padding-bottom: var(--md);}
+.lg-pb {padding-bottom: var(--lg);}
+.xl-pb {padding-bottom: var(--xl);}
+.xxl-pb {padding-bottom: var(--xxl);}
+
+/* Creating different padding right sizes */
+.xs-pr {padding-right: var(--xs);}
+.sm-pr {padding-right: var(--sm);}
+.md-pr {padding-right: var(--md);}
+.lg-pr {padding-right: var(--lg);}
+.xl-pr {padding-right: var(--xl);}
+.xxl-pr {padding-right: var(--xxl);}
+
+/* Creating different padding left sizes */
+.xs-pl {padding-left: var(--xs);}
+.sm-pl {padding-left: var(--sm);}
+.md-pl {padding-left: var(--md);}
+.lg-pl {padding-left: var(--lg);}
+.xl-pl {padding-left: var(--xl);}
+.xxl-pl {padding-left: var(--xxl);}
+
+/* Creating different margin top sizes */
+.xs-mt {margin-top: var(--xs);}
+.sm-mt {margin-top: var(--sm);}
+.md-mt {margin-top: var(--md);}
+.lg-mt {margin-top: var(--lg);}
+.xl-mt {margin-top: var(--xl);}
+.xxl-mt {margin-top: var(--xxl);}
+
+/* Creating different margin bottom sizes */
+.xs-mb {margin-bottom: var(--xs);}
+.sm-mb {margin-bottom: var(--sm);}
+.md-mb {margin-bottom: var(--md);}
+.lg-mb {margin-bottom: var(--lg);}
+.xl-mb {margin-bottom: var(--xl);}
+.xxl-mb {margin-bottom: var(--xxl);}
+
+/* Creating different margin right sizes */
+.xs-mr {margin-right: var(--xs);}
+.sm-mr {margin-right: var(--sm);}
+.md-mr {margin-right: var(--md);}
+.lg-mr {margin-right: var(--lg);}
+.xl-mr {margin-right: var(--xl);}
+.xxl-mr {margin-right: var(--xxl);}
+
+/* Creating different margin left sizes */
+.xs-ml {margin-left: var(--xs);}
+.sm-ml {margin-left: var(--sm);}
+.md-ml {margin-left: var(--md);}
+.lg-ml {margin-left: var(--lg);}
+.xl-ml {margin-left: var(--xl);}
+.xxl-ml {margin-left: var(--xxl);}
+
+/* Font sizes if I need to change them */
+.xs-f {font-size: var(--xs);}
+.sm-f {font-size: var(--sm);}
+.md-f {font-size: var(--md);}
+.lg-f {font-size: var(--lg);}
+.xl-f {font-size: var(--xl);}
+.xxl-f {font-size: var(--xxl);}
+
+/* Apply styling to all elements */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: var(--white);
+    color: var(--black);
+    font-size: var(--fs-sm);
+    text-decoration: none;
+    text-align: center;
+}
+
+/* Set all h1s to an increased font size */
+h1 {
+    font-size: var(--xl);
+}
+
+/* Create a dashed class for all borders */
+.dashed {    
+    border: var(--border);
+}
+
+/* Create one transition classs */
+.transition {
+    transition: all 1s ease 0s;
+}
+
+/* General and different button styling */
+button {
+    padding: var(--sm) var(--xl);
+    color: var(--black);
+    cursor: pointer;
+}
+
+#home {
+    background-color: #ff0000d0;
+    font-size: var(--lg);
+}
+
+#std {
+    background-color: #fff;
+}
+
+#cta {
+    background-color: #adff2fd0;
+    font-size: var(--lg);
+}
+
+/* On hover styling fot the different buttons */  
+#std:hover {
+    background-color: #ffa500;
+    transition: all 1s ease 0s;
+}
+  
+#home:hover {
+    background-color: #ff0000;
+    text-shadow: red -2px 0, cyan 2px 0;
+}
+
+#cta:hover {
+    background-color: #adff2f;
+    text-shadow: red -2px 0, cyan 2px 0;
+}
+  
