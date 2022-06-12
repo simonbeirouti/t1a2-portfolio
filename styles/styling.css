@@ -7,6 +7,7 @@
 .lg-p {padding: var(--lg);}
 .xl-p {padding: var(--xl);}
 .xxl-p {padding: var(--xxl);}
+.sxl-p {padding: var(--sxl);}
 
 /* Creating different margin surrounding sizes */
 .xs-m {margin: var(--xs);}
@@ -15,6 +16,7 @@
 .lg-m {margin: var(--lg);}
 .xl-m {margin: var(--xl);}
 .xxl-m {margin: var(--xxl);}
+.sxl-m {margin: var(--sxl);}
 
 /* Creating different padding top sizes */
 .xs-pt {padding-top: var(--xs);}
@@ -23,6 +25,7 @@
 .lg-pt {padding-top: var(--lg);}
 .xl-pt {padding-top: var(--xl);}
 .xxl-pt {padding-top: var(--xxl);}
+.sxl-pt {padding-top: var(--sxl);}
 
 /* Creating different padding bottom sizes */
 .xs-pb {padding-bottom: var(--xs);}
@@ -31,6 +34,7 @@
 .lg-pb {padding-bottom: var(--lg);}
 .xl-pb {padding-bottom: var(--xl);}
 .xxl-pb {padding-bottom: var(--xxl);}
+.sxl-pb {padding-bottom: var(--sxl);}
 
 /* Creating different padding right sizes */
 .xs-pr {padding-right: var(--xs);}
@@ -39,6 +43,7 @@
 .lg-pr {padding-right: var(--lg);}
 .xl-pr {padding-right: var(--xl);}
 .xxl-pr {padding-right: var(--xxl);}
+.sxl-pr {padding-right: var(--sxl);}
 
 /* Creating different padding left sizes */
 .xs-pl {padding-left: var(--xs);}
@@ -47,6 +52,7 @@
 .lg-pl {padding-left: var(--lg);}
 .xl-pl {padding-left: var(--xl);}
 .xxl-pl {padding-left: var(--xxl);}
+.sxl-pl {padding-left: var(--sxl);}
 
 /* Creating different margin top sizes */
 .xs-mt {margin-top: var(--xs);}
@@ -55,6 +61,7 @@
 .lg-mt {margin-top: var(--lg);}
 .xl-mt {margin-top: var(--xl);}
 .xxl-mt {margin-top: var(--xxl);}
+.sxl-mt {margin-top: var(--sxl);}
 
 /* Creating different margin bottom sizes */
 .xs-mb {margin-bottom: var(--xs);}
@@ -63,6 +70,7 @@
 .lg-mb {margin-bottom: var(--lg);}
 .xl-mb {margin-bottom: var(--xl);}
 .xxl-mb {margin-bottom: var(--xxl);}
+.sxl-mb {margin-bottom: var(--sxl);}
 
 /* Creating different margin right sizes */
 .xs-mr {margin-right: var(--xs);}
@@ -71,6 +79,7 @@
 .lg-mr {margin-right: var(--lg);}
 .xl-mr {margin-right: var(--xl);}
 .xxl-mr {margin-right: var(--xxl);}
+.sxl-mr {margin-right: var(--sxl);}
 
 /* Creating different margin left sizes */
 .xs-ml {margin-left: var(--xs);}
@@ -79,6 +88,7 @@
 .lg-ml {margin-left: var(--lg);}
 .xl-ml {margin-left: var(--xl);}
 .xxl-ml {margin-left: var(--xxl);}
+.sxl-ml {margin-left: var(--sxl);}
 
 /* Font sizes if I need to change them */
 .xs-f {font-size: var(--xs);}
@@ -130,14 +140,13 @@ button {
     cursor: pointer;
 }
 
+/* The individual button styling */
 #home {
     background-color: #ff0000d0;
     font-size: var(--lg);
 }
 
-#std {
-    background-color: #fff;
-}
+#std { background-color: #fff; }
 
 #cta {
     background-color: #adff2fd0;

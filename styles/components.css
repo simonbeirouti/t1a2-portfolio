@@ -1,20 +1,22 @@
 /* Header section */
+/* Give the header its flexbox styling to look better on smaller screens */
 header {
     display: flex;
     flex-direction: column;
 }
-  
+
+/* Remove the list styling and make the links displau inline */
 #nav-links, li {
     list-style: none;
     display: inline-block;
 }
  
 /* Hero component */
-.hero-section {
-    border-top: dashed 1px var(--black);
-}
+/* Give the hero section a border top to show it's separate to the nav */
+.hero-section { border-top: dashed 1px var(--black); }
  
 /* Footer section */
+/* Allow the footer to position itself under the content of each page. */
 footer {
     position: relative;
     bottom: 0;
@@ -23,6 +25,7 @@ footer {
 }
   
 /* Blog post component */
+/* Give the parent element some flexbopx styling to order themselves nicely */
 .blog-post {
     height: 100%;
     display: flex;
@@ -35,9 +38,11 @@ footer {
 .blog-post, h1, p, a {
     margin: 10px;
 }
-  
-@media only screen and (max-width: 1220px) {
-    .blog-post {
-      flex-flow: column wrap;
-    }
+
+/* CTA component */
+/* Make the component stay in the center of the page */
+#cta-form {
+    width: 400px;
+    margin: auto;
+    width: 50%;
 }

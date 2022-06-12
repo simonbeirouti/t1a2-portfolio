@@ -1,0 +1,42 @@
+/* 
+Change the sizing of the social images to look smaller and less
+in your face on movile devices. 
+*/
+@media only screen and (max-width: 400px) {
+  .socials {
+    width: 100px;
+    height: 100px;
+  }
+}
+
+/* 
+Make the information on the about page look better on mobile
+by reducing the margin sizes for the section.
+*/
+@media only screen and (max-width: 1000px) {
+  .about-information {
+    margin: 0 var(--xxl);
+  }
+
+  .blog-content {
+    margin: 24px 50px;  
+  }
+}
+
+
+/* Change the flexbox styling on smaller screens to fit
+to fit the content above each other. */
+@media only screen and (max-width: 1220px) {
+  .blog-post {
+    flex-flow: column wrap;
+  }
+}
+
+/* Change the content in blog to have more space on sides
+and look more presentable to the reader */
+@media only screen and (max-width: 1400px) {
+  #cta-form {
+    width: 100%;
+  }
+  
+}
