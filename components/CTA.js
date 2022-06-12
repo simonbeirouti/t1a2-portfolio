@@ -4,7 +4,7 @@ export default function CTA() {
             <div>
                 <div>
                     <h1 className="xl-f xl-fw">Join the mailing list!</h1>
-                    <p className="md-f md-fw">I won't spam! I'll just send you updates and cool things.</p>
+                    <p className="md-f md-fw">I won&apos;t spam! I&apos;ll just send you updates and cool things.</p>
                 </div>
             </div>
             <div>

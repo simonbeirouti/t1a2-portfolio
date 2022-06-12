@@ -42,7 +42,7 @@ export default function BudgetAppPostPage() {
                     craft beer gastropub hell of, semiotics swag organic glossier edison bulb celiac 
                     tonx kinfolk cloud bread. Chartreuse asymmetrical blue bottle fam yr, gochujang 
                     man braid kogi. Gentrify asymmetrical before they sold out tilde cliche, sartorial 
-                    street art yes plz. Chicharrones microdosing you probably haven't heard of them swag shabby chic.</p>
+                    street art yes plz. Chicharrones microdosing you probably haven&apos;t heard of them swag shabby chic.</p>
             </div>
             <Socials w="75" h="75" />
         </>
