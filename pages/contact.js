@@ -1,13 +1,6 @@
 import Hero from "../components/Hero";
 import MetaHead from "../components/MetaHead";
-import Link from "next/link";
-import Image from "next/image";
-
-const socials = [
-    { key: 1, link:  "https://github.com/simonbeirouti", image: "/assets/github.png", alt: "Image of the github icon that will go to the page when clicked" },
-    { key: 2, link:  "mailto:hello@simonbeirouti.com", image: "/assets/email.png", alt: "Image of an email icon that will prompt you to send an email when clicked" },
-    { key: 3, link:  "https://linkedin.com/in/simonbeirouti", image: "/assets/linkedin.png", alt: "Image of the linkedin icon that will go to the page when clicked" },
-];
+import Socials from "../components/Socials";
 
 export default function ContactPage() {
     return (
@@ -20,17 +13,10 @@ export default function ContactPage() {
                 description="Contact me"
             />
             <section className="xl-mt xl-mb">
-                <ul>
-                    {socials.map((social) => {
-                        return (
-                            <Link key={social.key} href={social.link}>
-                                <li className="md-p socials">
-                                    <Image width={100} height={100} src={social.image} alt={social.alt} />
-                                </li>
-                            </Link>
-                        )
-                    })}
-                </ul>
+                <Socials
+                    w="100"
+                    h="100"
+                />
             </section>
             {/* Apply spacing to overall component */}
             <form className="xxl-mt xxl-mb" action="#" method="POST">
