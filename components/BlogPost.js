@@ -1,6 +1,6 @@
-export default function BlogPost({name, date, link}) {
+export default function BlogPost({no, name, date, link}) {
     return (
-        <div className='blog-post dashed'>
+        <div key={no} className='blog-post dashed'>
             <h1 className="xl-f xl-fw">{name}</h1>
             <p className="lg-f sm-fw">{date}</p>
             <a href={link}>
