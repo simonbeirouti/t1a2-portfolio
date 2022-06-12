@@ -7,7 +7,7 @@ const blogPosts = [
     {no: 2, name: "Budget app", date: "19th April 2022", link: "/blog/budget-app"},
     {no: 3, name: "News scraper", date: "3rd March 2022", link: "/blog/news-scrapper"},
     {no: 4, name: "Flutter portfolio", date: "1st Janurary 2022", link: "/blog/flutter-portfolio"},
-    {no: 5, name: "Bootstrap", date: "24th December 2022", link: "/blog/bootstrap"}
+    {no: 5, name: "Hello World", date: "24th December 2022", link: "/blog/hello-world"}
 ];
 
 export default function BlogPage() {
