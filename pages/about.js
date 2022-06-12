@@ -12,7 +12,7 @@ export default function AboutPage() {
                 description="About Simon"
             />
             <section>
-                <div className="about-information lg-p">
+                <div className="about-information lg-p sxl-pr sxl-pl">
                     <p className="md-fw">My early exposure to logistics and different forms of product movement, data 
                         input and output has motivated me to pursue a career in data analytics and 
                         software engineering. I value the benefit of technology in increasing productivity 
