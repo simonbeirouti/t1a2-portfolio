@@ -3,18 +3,16 @@ import Hero from "../../components/Hero";
 import CTA from "../../components/CTA";
 import Socials from "../../components/Socials";
 
-export default function BudgetAppPostPage() {
+export default function BootstrapPostPage() {
     return (
         <>
             <MetaHead
-                page="Budget tracker"
-                description="A blog post about creating a budget tracker app on Flutter"
+                page="Hello world!"
+                description="A page about my first blog post"
             />
-            <Hero 
-                description="Budget tracker"
-            />
+            <Hero description="Hello world" />
             <div className="post-page sxl-ml sxl-mr xxl-mt">
-                <div className="blog-hero-img" id="b4"></div>
+                <div className="blog-hero-img" id="b1"></div>
                 <p className="md-fw blog-content lg-mt lg-mb lg-ml lg-mr xl-pr xl-pl">
                     Vaporware subway tile keytar pork belly snackwave tacos craft beer. 
                     Meggings lo-fi bicycle rights enamel pin 3 wolf moon cray. Intelligentsia 
