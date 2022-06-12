@@ -1,6 +1,6 @@
 export default function CTA() {
     return (
-        <section className="xl-pt xl-pb xl-mt xl-mb dashed" id="cta-form">
+        <section className="xl-m xl-p dashed" id="cta-form">
             <div>
                 <div>
                     <h1 className="xl-f xl-fw">Join the mailing list!</h1>
