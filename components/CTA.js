@@ -9,7 +9,7 @@ export default function CTA() {
             </div>
             <div>
                 <form className="xl-mt xl-mb" action="#" method="POST">
-                    <input className="form-fields sm-pl dashed" placeholder="Email address" type="text" id="email-adress" name="email-adress" />
+                    <input className="form-fields sm-pl cta-field dashed" placeholder="Email address" type="text" id="email-adress" name="email-adress" />
                     <button id="cta" className="dashed transition" type="submit">Submit</button>
                 </form>
             </div>
