@@ -1,5 +1,6 @@
 import MetaHead from '../components/MetaHead';
 import Hero from '../components/Hero';
+import CTA from '../components/CTA';
 
 export default function AboutPage() {
     return (
@@ -76,6 +77,7 @@ export default function AboutPage() {
                     </a>
                 </div>
             </section>
+            <CTA />
         </>
     );
 }

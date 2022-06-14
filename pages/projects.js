@@ -1,6 +1,7 @@
 import MetaHead from "../components/MetaHead";
 import Hero from "../components/Hero";
 import ProjectPost from "../components/ProjectPost";
+import CTA from "../components/CTA";
 
 const projectPosts = [
     {
@@ -53,6 +54,7 @@ export default function ProjectPage() {
                 )
             })}
         </div>
+        <CTA />
     </>
     )
 }

@@ -1,7 +1,8 @@
-import MetaHead from '../components/MetaHead';
-import Hero from '../components/Hero';
 import Image from 'next/image';
 import Link from 'next/link';
+import MetaHead from '../components/MetaHead';
+import Hero from '../components/Hero';
+import CTA from '../components/CTA'
 
 const hobbies = [
   {no: 1, hobbieName: 'Exercising', link: 'https://www.risenation.com.au/'},
@@ -74,6 +75,7 @@ export default function Home() {
           </ul>
         </div>
       </div>
+      <CTA />
     </>
   )
 }

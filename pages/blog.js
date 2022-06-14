@@ -1,6 +1,7 @@
 import MetaHead from '../components/MetaHead';
 import Hero from '../components/Hero';
 import BlogPost from '../components/BlogPost';
+import CTA from '../components/CTA';
 
 const blogPosts = [
     {no: 1, name: "Portfolio project", date: "11th June 2022", link: "/blog/portfolio-project"},
@@ -32,6 +33,7 @@ export default function BlogPage() {
                     )
                 })}
             </section>
+            <CTA />
         </>
     );
 }
